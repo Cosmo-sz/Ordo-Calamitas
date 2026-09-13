@@ -130,3 +130,73 @@ nav
     line-height: 1.5;
     text-align: justify;
 }
+
+#cards_elemento
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card_elemento
+{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(23, 22, 22);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.card_elemento img
+{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+#sangue
+{
+    border: 1px solid red;
+}
+
+#morte
+{
+    border: 1px solid rgb(80, 80, 80);
+}
+
+#conhecimento
+{
+    border: 1px solid rgb(239, 184, 16);
+}
+
+#energia
+{
+    border: 1px solid blueviolet;
+}
+
+.card_elemento h2
+{
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.card_elemento p
+{
+    color: aliceblue;
+    font-family: arial;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card_elemento .oprime
+{
+    color: blueviolet;
+    font-style: italic;
+    font-size: 12x;
+    text-align: center;
+}
