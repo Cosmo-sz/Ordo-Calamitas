@@ -44,4 +44,11 @@ nav
 .link_menu:hover
 {
     color: blueviolet;
+    text-shadow: 0 0 5px rgba(113, 12, 214, 0.699);
+} 
+
+.atual
+{
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
 }
