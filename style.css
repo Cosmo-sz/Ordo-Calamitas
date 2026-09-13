@@ -169,6 +169,7 @@ nav
     padding: 20px;
     border-radius: 16px;
     align-items: center;
+    transition: 0.3s;
 }
 
 .card_elemento img
@@ -183,9 +184,19 @@ nav
     border: 1px solid red;
 }
 
+#sangue:hover
+{
+    box-shadow: 0 0 15px red;
+}
+
 #morte
 {
     border: 1px solid rgb(120, 120, 120);
+}
+
+#morte:hover
+{
+    box-shadow: 0 0 15px rgb(120, 120, 120);
 }
 
 #conhecimento
@@ -193,9 +204,19 @@ nav
     border: 1px solid rgb(239, 184, 16);
 }
 
+#conhecimento:hover
+{
+    box-shadow: 0 0 15px rgb(239, 184, 16);
+}
+
 #energia
 {
     border: 1px solid blueviolet;
+}
+
+#energia:hover
+{
+    box-shadow: 0 0 15px blueviolet;
 }
 
 .card_elemento h2
@@ -221,7 +242,7 @@ nav
 {
     color: blueviolet;
     font-style: italic;
-    font-size: 12x;
+    font-size: 12px;
     text-align: center;
 }
 
