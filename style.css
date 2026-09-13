@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    background-color: rgb(38, 38, 38);
+}
+
+#menu
+{
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#area_menu
+{
+    background-color:rgb(23, 22, 22)
+}
+
+nav
+{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+#logo
+{
+    width: 100px;
+}
+
+#Banner
+{
+    width: 100%;
+}
+
+.link_menu
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+}
+
+.link_menu:hover
+{
+    color: blueviolet;
+}
