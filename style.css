@@ -335,3 +335,18 @@ nav
     line-height: 1.5;
     text-align: center;
 }
+
+#Deflagração
+{
+    border: 1px solid blueviolet;
+}
+
+#Deflagração:hover
+{
+    box-shadow: 0 0 15px blueviolet;
+}
+
+#Deflagração .elemento_ritual
+{
+    color: blueviolet;
+}
