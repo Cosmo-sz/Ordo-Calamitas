@@ -251,6 +251,15 @@ nav
     font-size: 12px;
     text-align: center;
 }
+
+#rituais
+{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 #rituais
 {
     margin: 40px;
@@ -275,6 +284,26 @@ nav
 {
     box-shadow: 0 0 15px red;
 }
+
+#Flagelo .elemento_ritual
+{
+    color: red;
+}
+
+#Inexistir
+{
+    border: 1px solid rgb(239, 184, 16);
+}
+
+#Inexistir:hover
+{
+    box-shadow: 0 0 15px rgb(239, 184, 16);
+}
+
+#Inexistir .elemento_ritual
+{
+    color: rgb(239, 184, 16);
+}
  
 .ritual img
 {
@@ -293,7 +322,6 @@ nav
 
 .elemento_ritual
 {
-    color: red;
     font-size: 14px;
     font-family: Arial;
     text-align: center;
