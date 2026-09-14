@@ -269,6 +269,23 @@ nav
     border-radius: 110px;
     transition: 0.3s;
 }
+#intro_rituais
+{
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#rituais h1
+{
+    color: blueviolet;
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 0 0 8px rgba(113, 12, 214, 0.7);
+}
 
 #Flagelo
 {
