@@ -260,11 +260,6 @@ nav
     gap: 20px;
 }
 
-#rituais
-{
-    margin: 40px;
-}
-
 .ritual
 {
     display: flex;
@@ -349,4 +344,19 @@ nav
 #Deflagração .elemento_ritual
 {
     color: blueviolet;
+}
+
+#Barganha
+{
+    border: 1px solid rgb(120, 120, 120);
+}
+
+#Barganha:hover
+{
+    box-shadow: 0 0 15px rgb(120, 120, 120);
+}
+
+#Barganha .elemento_ritual
+{
+    color: rgb(120, 120, 120);
 }
