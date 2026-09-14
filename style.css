@@ -251,4 +251,59 @@ nav
     font-size: 12px;
     text-align: center;
 }
+#rituais
+{
+    margin: 40px;
+}
 
+.ritual
+{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(23, 22, 22);
+    padding: 20px;
+    border-radius: 110px;
+    transition: 0.3s;
+}
+
+#Flagelo
+{
+    border: 1px solid red;
+}
+
+#Flagelo:hover
+{
+    box-shadow: 0 0 15px red;
+}
+ 
+.ritual img
+{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.info_ritual h2
+{
+    color: aliceblue;
+    font-family: Arial;
+    text-align: center;
+    font-size: 24px;
+}
+
+.elemento_ritual
+{
+    color: red;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.explicacao_ritual
+{
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
